@@ -1,0 +1,136 @@
+body {
+	background-color: #FCAEBB;
+}
+header {
+	border: 5px double #000000;
+	border-radius: 20px;
+	display: inline-block;
+	float: left;
+	width: 60%;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+header img {
+	height: 100px;
+}
+#sidebar {
+	background-image: url('../img/fondotop.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	background-attachment: fixed;
+	border: 5px double #000000;
+	float: right;
+	width: 30%;
+	padding: 10px;
+	margin: 10px 10px 10px 0px;
+	height: 850px;
+}
+#sidebar h1{
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	text-decoration: underline;
+}
+#sidebar nav {
+	text-align: center;
+	padding-top: 50px;
+	padding-left: 20px;
+}
+#sidebar nav ol {
+	text-align: center;
+}
+#sidebar nav ol li {
+	text-align: center;
+	padding-bottom: 20px;
+}
+#sidebar nav ol li h2 {
+	font-size: 20px;
+	font-family: 'Charmonman', cursive;
+}
+#sidebar nav ol li a img {
+	width: 200px;
+	height: 100px;
+}
+#sidebar p {
+	font-family: 'Srisakdi', cursive;
+	text-align: center;
+	font-weight: 600;
+}
+#enlaces {
+	float: left;
+	width: 60%;
+	text-align: center;
+	margin: 10px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+#enlaces nav ul {
+	list-style: none; /* Quitar los puntos de las listas */
+}
+#enlaces nav ul li {
+	display: inline-block; /* Hacer que esten en una linea en vez de una lista */
+}
+
+#enlaces nav ul li a:hover { /* Hacer que cambie de chover: ;olor el enlace cuando el raton pasa por encima */
+	background-color: #AE78E7;	
+}
+
+#enlaces nav ul li a {
+	text-decoration: none; /* Quitar el subrayado a los enlaces */
+}
+.pulse {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: #ef6eae;
+  transition: 0.25s;
+}
+.pulse:hover {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 0.5em #ffa260;
+}
+
+#contentarea {
+	margin: 10px;
+	float: left;
+	width: 60%;
+}
+#contentarea img {
+	width: 100%;
+}
+#contentarea p {
+	padding: 10px;
+
+}
+#intro {
+	font-family: 'Srisakdi', cursive;
+	color: #2A0A12;
+	font-size: 20px;
+}
+#novedad {
+	font-family: 'Charmonman', cursive;
+	text-align: center;
+	color: #848484;
+}
+footer {
+	clear: both;
+	border: 5px double #000000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	text-align: right;
+}
+/*
+	background-image: url('../img/integrantes.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	background-attachment: fixed;
+*/
