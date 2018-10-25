@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Layout</title>
+</head>
+<body>
+	<header>
+		<span class="logo">Layout</span>
+	</header>
+	<nav class="nav-horizontal">
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+			<li><a href="stock.html"><i class="fa fa-store"></i> Stock</a></li>
+			<li><a class="active" href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+		</ul>
+	</nav>
+	<section class="articles">
+		<h1>Formulario de contacto</h1>
+		<div class="panel">
+			<form action="">
+				<fieldset>
+					<label for="nombre"><i class="fa fa-file-signature"></i>Nombre</label>
+					<input type="text" name="nombre" id="nombre" placeholder="Nombre del artista" required="Este campo es obligatorio">
+				</fieldset>
+				<fieldset>
+					<label for="apellidos"><i class="fa fa-file-signature"></i>Apellidos</label>
+					<input type="text" name="apellidos" id="apellidos" placeholder="Apellidos del artista" required="Este campo es obligatorio">
+				</fieldset>
+				<fieldset>
+					<label for="e-mail"><i class="fa fa-building"></i>E-mail</label>
+					<input type="email" name="e-mail" id="email" placeholder="Tu correo electrónico" required="Este campo es obligatorio">
+				</fieldset>
+				<fieldset>
+					<label for="pais"><i class="fa fa-globe"></i>Pais</label>
+					<select name="pais" id="pais" required="Este campo es obligatorio">
+						<option value="cr">Corea</option>
+						<option value="ch">China</option>
+						<option value="jp">Japón</option>
+						<option value="tw">Taiwán</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<label for="sexo"><i class="fa fa-user-circle"></i></label>
+					<input type="radio" name="sexo" id="hombre" value="hombre">Hombre
+					<input type="radio" name="sexo" id="mujer" value="mujer">Mujer
+				</fieldset>
+				<fieldset>
+					<label for="lenguajes"><i class="fa fa-code "></i>Lenguajes</label>
+					<input type="checkbox" name="lenguajes" id="java" value="java">Java
+					<input type="checkbox" name="lenguajes" id="csharp" value="csharp">C#
+					<input type="checkbox" name="lenguajes" id="js" value="js">JS
+				</fieldset>
+				<input type="submit" name="Enviar">
+			</form>
+		</div>
+	</section>
+	<aside>
+		<h2>Síguenos en Twitter</h2>
+		<a class="twitter-timeline" data-height="800" data-link-color="#589E47" href="https://twitter.com/JYPETWICE?ref_src=twsrc%5Etfw">Tweets by JYPETWICE</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</aside>
+	<div class="clearfix"></div>
+	<footer></footer>
+</body>
+</html>
